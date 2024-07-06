@@ -1,0 +1,30 @@
+/*estilo de etiqueta*/
+body{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(159, 215, 252);
+}
+h1{
+    color: antiquewhite;
+}
+.miParrafo{
+    color: aquamarine;
+    font-size: 18px;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    color: azure;
+    /*border: none;*/
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+
+/*estilo de clase*/
+.body {
+    color: azure;
+}
